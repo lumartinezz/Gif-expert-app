@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export const AddCategory = ({onNewCategory}) => {
 
-  const [inputValue, setInputValue] = useState("One Puch");
+  const [inputValue, setInputValue] = useState("One Punch");
 
   const onInputChange = ({ target }) => {
     setInputValue(target.value);
